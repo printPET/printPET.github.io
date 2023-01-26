@@ -1,18 +1,21 @@
 :root {
-    --wd: 1600px;
-    --hg: calc(var(--wd)/1.7);
+    --wd_chat: 1600px;
+    --hg_chat: calc(var(--wd_chat)/1.7);
+    --wd_gif: 130px;
+    --hg_gif: calc(var(--wd_gif)/0.7);
+    --left_m_gif: calc(var(--wd_chat) - 70px);
   }
 
 #chat {
-    margin-top: 50px;
-    width: var(--wd);
-    height: var(--hg);
+    margin-top: 100px;
+    width: var(--wd_chat);
+    height: var(--hg_chat);
     z-index: 0;
     background-color: rgba(60, 60, 60, 0.4);
-    border-top: 2px solid rgb(151, 32, 13);
-    border-left: 2px solid rgb(151, 32, 13);
-    border-bottom: 2px solid #bd692b;
-    border-right: 2px solid #bd692b;
+    border-top: 10px solid rgb(151, 32, 13);
+    border-left: 10px solid rgb(151, 32, 13);
+    border-bottom: 10px solid #bd692b;
+    border-right: 10px solid #bd692b;
     border-radius: 15px 50px 30px;
     overflow-y: auto; 
 }
@@ -22,11 +25,11 @@
 }
 
 img.animated-gif {
-    margin-left: 313px;
-    margin-top: -30px;
+    width: var(--wd_gif);
+    height: var(--hg_gif);
+    margin-left: var(--left_m_gif);
+    margin-top: -110px;
     position: fixed; 
-    width: 50px;
-    height: auto;
 }
 
 #chat > ul {
