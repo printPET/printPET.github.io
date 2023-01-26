@@ -1,5 +1,5 @@
 :root {
-    --wd_chat: 1600px;
+    --wd_chat: 2048px;
     --hg_chat: calc(var(--wd_chat)/1.7);
     --wd_gif: 130px;
     --hg_gif: calc(var(--wd_gif)/0.7);
