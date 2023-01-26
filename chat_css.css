@@ -1,5 +1,5 @@
 :root {
-    --wd_chat: 2048px;
+    --wd_chat: 1600px;
     --hg_chat: calc(var(--wd_chat)/1.7);
     --wd_gif: 130px;
     --hg_gif: calc(var(--wd_gif)/0.7);
@@ -16,7 +16,7 @@
     border-left: 10px solid rgb(151, 32, 13);
     border-bottom: 10px solid #bd692b;
     border-right: 10px solid #bd692b;
-    border-radius: 30px 50px 30px;
+    border-radius: 75px 250px 150px;
     overflow-y: auto; 
 }
 
