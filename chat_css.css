@@ -1,10 +1,10 @@
 :root {
-    --wd: 1200px;
+    --wd: 1920px;
     --hg: calc(var(--wd)/1.7);
   }
 
 #chat {
-    margin-top: 100px;
+    margin-top: 50px;
     width: var(--wd);
     height: var(--hg);
     z-index: 0;
