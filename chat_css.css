@@ -1,0 +1,49 @@
+:root {
+    --wd: 600px;
+    --hg: calc(var(--wd)/1.7);
+  }
+
+#chat {
+    margin-top: 100px;
+    width: var(--wd);
+    height: var(--hg);
+    z-index: 0;
+    background-color: rgba(60, 60, 60, 0.4);
+    border-top: 2px solid rgb(151, 32, 13);
+    border-left: 2px solid rgb(151, 32, 13);
+    border-bottom: 2px solid #bd692b;
+    border-right: 2px solid #bd692b;
+    border-radius: 15px 50px 30px;
+    overflow-y: auto; 
+}
+
+#chat::-webkit-scrollbar {
+    display: none;
+}
+
+img.animated-gif {
+    margin-left: 313px;
+    margin-top: -30px;
+    position: fixed; 
+    width: 50px;
+    height: auto;
+}
+
+#chat > ul {
+    list-style-type: none;
+    list-style-position: outside;
+    font-size: 15px;
+}
+
+#chat li {
+    max-width: 300px;
+    max-height: 200px;
+    overflow-y: hidden;   
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+#chat  blockquote {
+    font-size: 15px;
+}
