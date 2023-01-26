@@ -1,7 +1,12 @@
+:root {
+    --wd: 600px;
+    --hg: calc(var(--wd)/1.7);
+  }
+
 #chat {
     margin-top: 100px;
-    width: 350px;
-    height: 250px;
+    width: var(--wd);
+    height: var(--hg);
     z-index: 0;
     background-color: rgba(60, 60, 60, 0.4);
     border-top: 2px solid rgb(151, 32, 13);
