@@ -4,6 +4,7 @@
     --wd_gif: 265px;
     --hg_gif: calc(var(--wd_gif)/0.7);
     --left_m_gif: calc(var(--wd_chat) - 165px);
+    --font_sz: 60px;
   }
 
 #chat {
@@ -33,21 +34,26 @@ img.animated-gif {
     position: fixed; 
 }
 
-#chat > ul {
+#chat ul {
     list-style-type: none;
     list-style-position: outside;
-    font-size: 15px;
 }
 
 #chat li {
-    max-width: 300px;
-    max-height: 200px;
-    overflow-y: hidden;   
-    overflow-wrap: break-word;
-    margin-bottom: 5px;
-    font-size: 15px;
+    margin-top: 75px;
+    margin-left: 45px;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    font-size: var(--font_sz);
+    border-radius: 15px;
+    padding: 4px;
 }
 
 #chat  blockquote {
-    font-size: 15px;
+    max-width: calc(var(--wd_chat) - 200px);
+    max-height: 200px;
+    overflow-y: hidden;   
+    overflow-wrap: break-word;
+    font-size: var(--font_sz);
 }
