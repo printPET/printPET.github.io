@@ -2,14 +2,14 @@
     "data": [
         {
             "set_id": "1979-revolution_1",
-            "versions": [
+            "versions_1": 
                 {
                     "id": "1",
                     "image_url_1x": "https://static-cdn.jtvnw.net/badges/v1/7833bb6e-d20d-48ff-a58d-67fe827a4f84/1",
                     "image_url_2x": "https://static-cdn.jtvnw.net/badges/v1/7833bb6e-d20d-48ff-a58d-67fe827a4f84/2",
                     "image_url_4x": "https://static-cdn.jtvnw.net/badges/v1/7833bb6e-d20d-48ff-a58d-67fe827a4f84/3"
                 }
-            ]
+            
         },
         {
             "set_id": "60-seconds_1",
